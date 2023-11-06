@@ -1,0 +1,90 @@
+.listItem {
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.listItem .mainBox {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.listItem .eventType {
+    background-color: #26c6da;
+    font-weight: bolder;
+    width: 3.4rem;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.listItem .detailBox {
+    border-top: 0.5px solid #c6c6c6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0.3rem;
+}
+
+/* child of .listItem .detailBox */
+.listItem .detailBox .detail {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    align-items: center;
+    justify-content: center;
+    min-height: 0.7rem;
+    padding: 0.2rem 0.3rem;
+}
+
+.listItem .detailBox .delay {
+    width: 87%;
+    display: grid;
+    grid-template-columns: 3.3fr 3fr 2.5fr 4fr;
+    align-items: center;
+    justify-content: center;
+    min-height: 0.7rem;
+    padding: 0.2rem 0.7rem;
+}
+
+.listItem .detailBox .select {
+    width: 87%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: center;
+    min-height: 0.7rem;
+    padding: 0.2rem 1rem;
+}
+
+.listItem .detailBox .delay input {
+    width: 89%;
+}
+
+.listItem input {
+    outline: none;
+    padding: 0.2rem  0.2rem;
+}
+
+.listItem textarea {
+    outline: none;
+    max-width: 170px;
+    padding: 0.2rem;
+    resize: none;
+}
+
+.listItem .button {
+    padding-bottom: 0.6rem;
+    padding-top: 0.4rem;
+}
+
+.listItem .tabName {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+.listItem .add-button {
+    
+}

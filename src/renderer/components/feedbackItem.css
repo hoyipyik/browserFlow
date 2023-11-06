@@ -1,0 +1,21 @@
+.feedbackItem {
+    width: 100%;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.feedbackItem .main-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 4fr 8fr 4fr;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid #dcdcdc;
+}
+
+.feedbackItem .msg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+}

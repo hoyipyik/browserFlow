@@ -1,0 +1,9 @@
+.head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem 0 0.3rem 0;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #c6c6c6;
+}
