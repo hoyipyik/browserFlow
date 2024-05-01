@@ -260,4 +260,10 @@ const ListItem: React.FC<ListItemProps> = ({ item }) => {
   useClickOutside(ref, hideMoreHanlder);
 
   return (
-    <div class
+    <div ref={ref} className="listItem">
+      {mainBoxComponent}
+      {showDetailsFlag && detailedBoxComponent}
+    </div>
+  )}
+
+export default ListItem;
